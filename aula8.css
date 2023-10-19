@@ -1,0 +1,246 @@
+.nome{
+    background: blue;
+    align-items:center;
+    justify-content:left;
+    color: white;
+    text-align: left;
+    display: flex;
+    width:60%;
+    left:5%;
+}
+
+.dark{
+    .obj{
+        background:grey;
+    }
+    .exp{
+        background:darkgray;
+    }
+    .esc{
+        background: grey;
+    }
+    .crs{
+        background:darkgray;
+    }
+    .cont{
+        background:grey;
+    }
+    .right{
+        background:white;
+    }
+    #tabela1{
+        background-color:darkgray;
+    }
+    #tabela2{
+        background-color:grey;
+    }
+    #text1{
+        background-color: white;
+    }
+    #text2{
+        background-color: white;
+    }
+}
+
+.profissao{
+    background: blue;
+    align-items:center;
+    justify-content:left;
+    color: white;
+    text-align: left;
+    display: flex;
+    width:60%;
+    left:5%;
+}
+
+.obj{
+    display:flexbox;
+    align-items:left;
+    justify-content:left;
+    background:white;
+    height: 16.3%;
+    width: 45.4%;
+    position:absolute;
+    top: 12,5%;
+    left: 0,5%;
+}
+
+.objetivo{
+  font-style: italic;
+}
+
+#objetivo{
+    font-style: italic;
+    text-align: center;
+    justify-content:center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+.exp{
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    background: pink;
+    height: 20%;
+    width: 45.4%;
+    position:absolute;
+    top: 29%;
+    left: 0,5%;
+}
+
+.experiencia{
+    font-style: italic;
+}
+
+#tabela1{
+    margin: 2% 0% 0% -4%;
+    text-align: center;
+    background-color:white;
+    width: 120%;
+    height: 20%;
+}
+.esc{
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    background: white;
+    height: 20%;
+    width: 45.4%;
+    position:absolute;
+    top: 49%;
+    left: 0,5%;
+}
+
+.escolaridade{
+    font-style: italic;
+}
+
+#tabela2{
+    margin: 0% 0% 0% -9%;
+    text-align: center;
+    background-color:pink;
+    width: 120%;
+    height: 20%;
+}
+
+.crs{
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    background:pink;
+    height: 20%;
+    width: 45.4%;
+    position:absolute;
+    top: 69%;
+    left: 0,5%;
+}
+
+.cursos{
+    font-style: italic;
+}
+
+#cursos{
+    text-align: left;
+}
+
+.right{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background:plum;
+    height: 117%;
+    width: 14%;
+    position:absolute;
+    top: 12.7%;
+    left: 45.85%;
+}
+
+#foto{
+    width: 145px;
+    height: 80%;
+}
+
+.cont{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background: white;
+    height: 40.7%;
+    width: 45.35%;
+    position:absolute;
+    top: 89%;
+    left: 0,5%;
+}
+.contato{
+    font-style: italic;
+    width: 45.1%;
+    height: 85%;
+    align-content: left;
+    margin: -17% -17%;
+    left:40%;
+} 
+
+#nome{
+     margin: 1% 1%
+}
+
+#profissao{
+    margin: 1% 1%
+}
+
+textarea{
+    margin: 1px 0;
+    width: 250px;
+    height: 50px;
+    background-color: plum;
+}
+
+#text1{
+    background-color: plum;
+}
+
+#text2{
+    background-color: plum;
+}
+
+.nome {
+    text-align: center;
+  }
+
+  #nome {
+    animation: color-change 1s infinite;
+  }
+
+  @keyframes color-change {
+    0% {
+      color: white;
+    }
+    50% {
+      color: blue;
+    }
+    100% {
+      color: white;
+    }
+  }
+
+  .claro-escuro {
+    position: absolute;
+    top: 2.7%;
+    left: 50%;
+  }
+
+  .modifica {
+    background-color: #294a73;
+    color: white; 
+    padding: 10px 24px;
+    border-radius: 10px; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s; 
+  }
+  
+  .modifica:hover {
+    background-color: #0066b8; 
+  }
